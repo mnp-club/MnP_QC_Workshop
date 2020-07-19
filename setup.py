@@ -9,7 +9,7 @@ setup(
 	description='Used for verifying the answers',
 	long_description=readme,
     long_description_content_type="text/markdown",
-	url='https://github.com/mahadevans2432/test_qc_workshop_2020',
+	url='#',
 	author='Mahadevan Subramanian',
 	author_email='mahadevan.subramanian2432@gmail.com',
 	license='unlicense',
