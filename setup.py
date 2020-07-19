@@ -4,7 +4,7 @@ with open("README.md", "r") as readme_file:
     readme = readme_file.read()
 
 setup(
-	name='test_qc_workshop_2020',
+	name='mnp_qc_workshop_2020',
 	version='0.1',
 	description='Used for verifying the answers',
 	long_description=readme,
@@ -13,8 +13,8 @@ setup(
 	author='Mahadevan Subramanian',
 	author_email='mahadevan.subramanian2432@gmail.com',
 	license='unlicense',
-	packages=find_packages(include=['test_qc_workshop_2020',
-					  				'test_qc_workshop_2020.*']),
+	packages=find_packages(include=['mnp_qc_workshop_2020',
+					  				'mnp_qc_workshop_2020.*']),
 	classifiers=[
         "Programming Language :: Python :: 3.7",
         "Topic :: Scientific/Engineering",
