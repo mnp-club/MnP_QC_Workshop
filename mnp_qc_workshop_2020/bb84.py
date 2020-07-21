@@ -1,15 +1,5 @@
 import os
-import pickle
-import json
-from urllib.parse import urljoin
-from typing import Tuple
-from html import escape as html_escape
-
-import requests
-from qiskit import QuantumCircuit
-from qiskit.qobj import Qobj
-from qiskit.assembler import disassemble
-from IPython.display import display, HTML
+from qiskit import *
 import numpy as np
 
 bb84_data = np.load(os.path.join(os.path.dirname(__file__), 'bb84_data.npy'))

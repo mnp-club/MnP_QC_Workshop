@@ -1,11 +1,9 @@
 # Importing standard Qiskit libraries and configuring account
-from qiskit import QuantumCircuit, execute, Aer, IBMQ
-from qiskit import BasicAer
-from qiskit.compiler import transpile, assemble
+from qiskit import *
+from qiskit.compiler import *
 from qiskit.tools.jupyter import *
 import scipy
 import numpy as np
-from IPython.display import display, Math, Latex
 import qiskit.quantum_info as qi
 from cmath import sqrt
 import os

@@ -3,7 +3,6 @@ from qiskit.compiler import *
 from qiskit.tools.jupyter import *
 import scipy
 import numpy as np
-from IPython.display import display, Math, Latex
 import qiskit.quantum_info as qi
 from cmath import sqrt
 
